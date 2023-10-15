@@ -125,6 +125,7 @@ reviewer_2.rate_hw(student_1, 'Java', 10)
 reviewer_2.rate_hw(student_2, 'C', 8)
 reviewer_2.rate_hw(student_2, 'C', 5)
 
+# Проверки вызванных методов
 print(student_1, student_2)
 print(student_1 < student_2)
 
@@ -160,6 +161,8 @@ def grades_for_mentors(course, all_lecturers):
         return round(sum(sum_value) / amount, 1)
     else:
         return 'Значений нет'
+
+# Все проверки для задания 4
 
 print(grades_for_course('Java', all_students))
 # print(grades_for_course('C', all_students))
